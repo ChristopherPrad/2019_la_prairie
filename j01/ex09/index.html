@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,7 +44,6 @@
           en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
         </p>
       </article>
-
       <article>
         <table>
           <caption>
@@ -118,7 +117,9 @@
         <textarea name="comm" rows="10" cols="40">
     Que pensez vous de ?
     </textarea
-        ><br />
+        ><br /><label for="file">File progress:</label>
+
+        <progress id="file" max="100" value="30"> 70% </progress><br />
         <INPUT TYPE="submit" NAME="nom" VALUE=" Envoyer " />
       </form>
     </section>
